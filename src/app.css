@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+  background-color: aquamarine;
+}
+h1 {
+  text-align: center;
+}
+#email {
+  font-size: 15px;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: rgba(161, 112, 112, 0.14);
+}
+a:hover {
+  opacity: 0.8;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}

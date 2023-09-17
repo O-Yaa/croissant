@@ -1,23 +1,34 @@
 body {
+  background-color: white;
+}
+#intro {
   text-align: center;
-  background-color: rgb(85, 119, 212);
 }
 h1 {
   text-align: center;
 }
 #email {
   font-size: 15px;
+  color: grey;
+}
+#mail {
+  font-size: 15px;
 }
 a {
   text-decoration: none;
 }
-a:visited {
-  color: rgba(161, 112, 112, 0.14);
-}
+
 a:hover {
   opacity: 0.8;
 }
-.container {
-  display: flex;
-  justify-content: space-evenly;
+footer {
+  text-align: center;
+}
+footer a {
+  margin: 0 15px;
+  color: blueviolet;
+}
+header {
+  margin-top: 25px;
+  text-align: center;
 }
